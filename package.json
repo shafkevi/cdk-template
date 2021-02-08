@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "build": "./scripts/build.sh",
-    "clean": "./scripts/clean.sh"
+    "clean": "./scripts/clean.sh",
+    "watch": "npx tsc -w"
   },
   "dependencies": {
     "@aws-cdk/assert": "^1.74.0",
