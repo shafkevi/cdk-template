@@ -2,7 +2,8 @@
   "name": "cdk-template",
   "version": "0.1.0",
   "scripts": {
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "clean": "./scripts/clean.sh"
   },
   "dependencies": {
     "@aws-cdk/assert": "^1.74.0",
