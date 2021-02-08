@@ -2,10 +2,9 @@
 
 set -e
 
-mkdir -p dist
-
-npx tsc
+CWD=$(pwd -P)
 
 rsync -azr --delete secrets/ dist/secrets/
-rsync -azr --delete src/ dist/src/
+rsync -azr --delete assets/ dist/assets/
 
+npx tsc
