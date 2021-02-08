@@ -14,6 +14,7 @@
   * `npm run build` compile project to `dist`
   * `npm run clean` delete everything in `cdk.out` and `dist`
   * `npm run watch` watch for changes and compile
+  * `cdk ls` list stacks available for deployment
   * `cdk deploy` deploy this stack to your default AWS account/region
   * `cdk diff` compare deployed stack with current state
   * `cdk synth` emits the synthesized CloudFormation template
